@@ -1,6 +1,13 @@
 const express=require('express');
 const port=8000;
 const app=express();
+const db=require('./config/mongoose');
+
+//for convert data string to object
+app.use(express.urlencoded({ extended: false }));
+//routing all request with root directory towards routes folder
+app.use('/',require('./routes'));
+
 
 
 //server starting on port no:8000
