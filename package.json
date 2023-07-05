@@ -1,0 +1,11 @@
+{
+  "name": "car_seller",
+  "version": "1.0.0",
+  "description": "web app making for car selling platform with the help of api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "shubham patil",
+  "license": "ISC"
+}
